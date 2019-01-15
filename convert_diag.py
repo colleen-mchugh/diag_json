@@ -23,21 +23,26 @@ for lines in diag_table:
 ## Seperate out comments in the diag table
  if re.search('^#.*',diagline[0]):
   continue
-## Entriles with 6 members are files
- elif len(diagline) == 6:
-  files.append(diagline)
-#  print "This is a file"
 ## Entries with 8 mebers are diagnostic variables
- elif len(diagline)>= 8:
-  variables.append(diagline)
+# elif len(diagline)>= 8:
+#  variables.append(diagline)
 #  print "This is a variable"
 ## Entries without commas are the experiment and base date
  elif len(diagline) == 1:
-  topinfo.append(diagline)  
+  topinfo.append(diagline)
+## Entriles with a string then a number are files.
+# elif len(diagline) == 6:
+ elif re.search('\s*\w+',diagline[0]) and re.search('^-*\d+',diagline[1].strip()):
+  print diagline
+  files.append(diagline)
+#  print "This is a file"
+
+## All other entries are variables
  else:
-  print lines
-  print "This is an error or is not yet supported."
-  quit()
+  variables.append(diagline)
+#  print lines
+#  print "This is an error or is not yet supported."
+#  quit()
 ## Close the input file
 diag_table.close()
 #####################################################################

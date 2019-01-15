@@ -22,7 +22,6 @@ for lines in diag_table:
 # print diagline, len(diagline)
 ## Seperate out comments in the diag table
  if re.search('^#.*',diagline[0]):
-  print diagline[0]
   continue
 ## Entriles with 6 members are files
  elif len(diagline) == 6:

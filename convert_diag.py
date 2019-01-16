@@ -78,6 +78,8 @@ if input_vars:
         for item in input_vars:
             if re.match(r"\b" + item + r"\b", variables[i][1].strip()):
                 variables_mod.append(variables[i])
+    if len(variables_mod)==0:
+        print("No variables from user-specified list {} found".format(input_vars))
 #overwrite variables to continue
     variables=variables_mod
 #####################################################################

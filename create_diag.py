@@ -11,7 +11,7 @@ import argparse
 
 
 parser=argparse.ArgumentParser(description='Create diag_json file')
-parser.add_argument('--variables', nargs='+', default=[], help='variables you want info for')
+parser.add_argument('--variables', nargs='+', default=[], help='List of variables to extract info for')
 args=parser.parse_args()
 input_vars=args.variables
 ## Open the input (diag_table) and output (diag_json) files
@@ -78,6 +78,8 @@ if input_vars:
         for item in input_vars:
             if re.match(r"\b" + item + r"\b", variables[i][1].strip()):
                 variables_mod.append(variables[i])
+    if len(variables_mod)==0:
+        print("No variables from user-specified list {} found".format(input_vars))
 #overwrite variables to continue
     variables=variables_mod
 #####################################################################
@@ -95,6 +97,6 @@ for i in range(len(variables)):
 fullJson.update(varsJson)
 #####################################################################
 ## Write the json to the output file
-diag_json.write(json.dumps(fullJson,sort_keys=True, indent=2))
+diag_json.write(json.dumps(fullJson, sort_keys=True, indent=2))
 
 diag_json.close()

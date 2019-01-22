@@ -1,0 +1,179 @@
+{
+  "HSr": {
+    "land": [
+      [
+        "HSr", 
+        "land_month_inst", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ], 
+    "river": [
+      [
+        "HSr", 
+        "river_month_inst", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "LWSr": {
+    "land": [
+      [
+        "LWSr", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ], 
+      [
+        "LWSr", 
+        "land_month_inst", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ], 
+    "river": [
+      [
+        "LWSr", 
+        "river_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ], 
+      [
+        "LWSr", 
+        "river_month_inst", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "date": "1979 1 1 0 0 0", 
+  "experiment": "c96L33_am4p0", 
+  "files": {
+    "atmos_4xdaily": [
+      "6", 
+      "hours", 
+      "1", 
+      "days", 
+      "time"
+    ], 
+    "atmos_8xdaily": [
+      "3", 
+      "hours", 
+      "1", 
+      "days", 
+      "time"
+    ], 
+    "atmos_daily": [
+      "24", 
+      "hours", 
+      "1", 
+      "days", 
+      "time"
+    ], 
+    "atmos_diurnal": [
+      "1", 
+      "months", 
+      "1", 
+      "days", 
+      "time"
+    ], 
+    "atmos_month": [
+      "1", 
+      "months", 
+      "1", 
+      "days", 
+      "time"
+    ], 
+    "atmos_month_aer": [
+      "1", 
+      "months", 
+      "1", 
+      "days", 
+      "time"
+    ], 
+    "atmos_scalar": [
+      "1", 
+      "months", 
+      "1", 
+      "days", 
+      "time"
+    ], 
+    "atmos_tracer": [
+      "1", 
+      "months", 
+      "1", 
+      "days", 
+      "time"
+    ], 
+    "grid_spec": [
+      "-1", 
+      "months", 
+      "1", 
+      "days", 
+      "time"
+    ], 
+    "land_daily": [
+      "24", 
+      "hours", 
+      "1", 
+      "days", 
+      "time"
+    ], 
+    "land_month": [
+      "1", 
+      "months", 
+      "1", 
+      "days", 
+      "time"
+    ], 
+    "land_month_inst": [
+      "1", 
+      "months", 
+      "1", 
+      "days", 
+      "time"
+    ], 
+    "land_static": [
+      "-1", 
+      "months", 
+      "1", 
+      "days", 
+      "time"
+    ], 
+    "river_daily": [
+      "24", 
+      "hours", 
+      "1", 
+      "days", 
+      "time"
+    ], 
+    "river_month": [
+      "1", 
+      "months", 
+      "1", 
+      "days", 
+      "time"
+    ], 
+    "river_month_inst": [
+      "1", 
+      "months", 
+      "1", 
+      "days", 
+      "time"
+    ], 
+    "river_static": [
+      "-1", 
+      "months", 
+      "1", 
+      "days", 
+      "time"
+    ]
+  }
+}

@@ -1,4 +1,78 @@
 {
+  "FWS": {
+    "land": [
+      [
+        "FWS", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ], 
+      [
+        "FWS", 
+        "land_month_inst", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "FWSr": {
+    "land": [
+      [
+        "FWSr", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ], 
+      [
+        "FWSr", 
+        "land_month_inst", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ], 
+    "river": [
+      [
+        "FWSr", 
+        "river_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ], 
+      [
+        "FWSr", 
+        "river_month_inst", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "FWSv": {
+    "land": [
+      [
+        "FWSv", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "HS": {
+    "land": [
+      [
+        "HS", 
+        "land_month_inst", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
   "HSr": {
     "land": [
       [
@@ -13,6 +87,68 @@
       [
         "HSr", 
         "river_month_inst", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "IWP": {
+    "moist": [
+      [
+        "IWP", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "IWP_all_clouds": {
+    "moist": [
+      [
+        "IWP_all_clouds", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "LAI": {
+    "vegn": [
+      [
+        "LAI", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "LWP": {
+    "moist": [
+      [
+        "LWP", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "LWS": {
+    "land": [
+      [
+        "LWS", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ], 
+      [
+        "LWS", 
+        "land_month_inst", 
         "all", 
         ".false.", 
         "none"
@@ -53,8 +189,1141 @@
       ]
     ]
   }, 
+  "LWSv": {
+    "land": [
+      [
+        "LWSv", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "SOA": {
+    "dynamics": [
+      [
+        "SOA", 
+        "atmos_tracer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "Tca": {
+    "land": [
+      [
+        "Tca", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "Tgrnd": {
+    "land": [
+      [
+        "Tgrnd", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "Trad": {
+    "land": [
+      [
+        "Trad", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "WP_all_clouds": {
+    "moist": [
+      [
+        "WP_all_clouds", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "WVP": {
+    "moist": [
+      [
+        "WVP", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "aerosol_abopdep_col_vis": {
+    "radiation": [
+      [
+        "aer_ab_c_vs", 
+        "atmos_month_aer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "aerosol_abopdep_vis": {
+    "radiation": [
+      [
+        "aer_ab_vs", 
+        "atmos_month_aer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "aerosol_col": {
+    "radiation": [
+      [
+        "aer_c", 
+        "atmos_month_aer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "aerosol_exopdep_col_vis": {
+    "radiation": [
+      [
+        "aer_ex_c_vs", 
+        "atmos_month_aer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "aerosol_exopdep_vis": {
+    "radiation": [
+      [
+        "aer_ex_vs", 
+        "atmos_month_aer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "alb_sfc": {
+    "radiation": [
+      [
+        "alb_sfc", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "albedo_dif": {
+    "land": [
+      [
+        "albedo_dif", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "albedo_dir": {
+    "land": [
+      [
+        "albedo_dir", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "aliq": {
+    "strat": [
+      [
+        "aliq", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "an_cl": {
+    "vegn": [
+      [
+        "an_cl", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "an_op": {
+    "vegn": [
+      [
+        "an_op", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "area": {
+    "land": [
+      [
+        "area", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "area_glac": {
+    "land": [
+      [
+        "glac_area", 
+        "land_static", 
+        "all", 
+        ".false.", 
+        "none"
+      ], 
+      [
+        "glac_area", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "area_lake": {
+    "land": [
+      [
+        "lake_area", 
+        "land_static", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "area_land": {
+    "land": [
+      [
+        "land_area", 
+        "land_static", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ], 
+    "river": [
+      [
+        "land_area", 
+        "river_static", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "area_ntrl": {
+    "land": [
+      [
+        "area_ntrl", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "area_soil": {
+    "land": [
+      [
+        "soil_area", 
+        "land_static", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "asoil": {
+    "vegn": [
+      [
+        "asoil", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "b_star": {
+    "flux": [
+      [
+        "b_star", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "bcphil": {
+    "dynamics": [
+      [
+        "bcphil", 
+        "atmos_tracer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "bcphob": {
+    "dynamics": [
+      [
+        "bcphob", 
+        "atmos_tracer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "bk": {
+    "dynamics": [
+      [
+        "bk", 
+        "atmos_daily", 
+        "all", 
+        ".false.", 
+        "none"
+      ], 
+      [
+        "bk", 
+        "atmos_month", 
+        "all", 
+        ".false.", 
+        "none"
+      ], 
+      [
+        "bk", 
+        "atmos_month_aer", 
+        "all", 
+        ".false.", 
+        "none"
+      ], 
+      [
+        "bk", 
+        "atmos_tracer", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "bl": {
+    "vegn": [
+      [
+        "bl", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "black_carbon": {
+    "radiation": [
+      [
+        "blk_crb", 
+        "atmos_month_aer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "black_carbon_col": {
+    "radiation": [
+      [
+        "blk_crb_col", 
+        "atmos_month_aer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "black_carbon_exopdep_col_vis": {
+    "radiation": [
+      [
+        "blk_crb_ex_c_vs", 
+        "atmos_month_aer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "blv": {
+    "vegn": [
+      [
+        "blv", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "br": {
+    "vegn": [
+      [
+        "br", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "bsw": {
+    "vegn": [
+      [
+        "bsw", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "bwood": {
+    "vegn": [
+      [
+        "bwood", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "cbmf_uwc": {
+    "uw_conv": [
+      [
+        "cbmf_uwc", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "cell_area": {
+    "land": [
+      [
+        "cell_area", 
+        "land_static", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ], 
+    "river": [
+      [
+        "cell_area", 
+        "river_static", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "ch4_lbc": {
+    "tracers": [
+      [
+        "CH4_lbc", 
+        "atmos_scalar", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "cin_uwc": {
+    "uw_conv": [
+      [
+        "cin_uwc", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "cld_amt": {
+    "dynamics": [
+      [
+        "cld_amt", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "cleared_harv_pool": {
+    "vegn": [
+      [
+        "cleared_harv_pool", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "cleared_harv_rate": {
+    "vegn": [
+      [
+        "cleared_harv_rate", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "cmf_uwc": {
+    "uw_conv": [
+      [
+        "cmf_uwc", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "cmf_uwd": {
+    "uw_conv": [
+      [
+        "cmf_uwd", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "cmf_uws": {
+    "uw_conv": [
+      [
+        "cmf_uws", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "convect": {
+    "entrain": [
+      [
+        "convect", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "convpbl_fq": {
+    "entrain": [
+      [
+        "convpbl_fq", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "cpool_uwc": {
+    "uw_conv": [
+      [
+        "cpool_uwc", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "cqa_uwc": {
+    "uw_conv": [
+      [
+        "cqa_uwc", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "cqa_uwd": {
+    "uw_conv": [
+      [
+        "cqa_uwd", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "cqa_uws": {
+    "uw_conv": [
+      [
+        "cqa_uws", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "cqi_uwc": {
+    "uw_conv": [
+      [
+        "cqi_uwc", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "cqi_uwd": {
+    "uw_conv": [
+      [
+        "cqi_uwd", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "cqi_uws": {
+    "uw_conv": [
+      [
+        "cqi_uws", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "cql_uwc": {
+    "uw_conv": [
+      [
+        "cql_uwc", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "cql_uwd": {
+    "uw_conv": [
+      [
+        "cql_uwd", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "cql_uws": {
+    "uw_conv": [
+      [
+        "cql_uws", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "cqn_uwc": {
+    "uw_conv": [
+      [
+        "cqn_uwc", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "crop_harv_pool": {
+    "vegn": [
+      [
+        "crop_harv_pool", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "crop_harv_rate": {
+    "vegn": [
+      [
+        "crop_harv_rate", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "csmoke_rate": {
+    "vegn": [
+      [
+        "csmoke_rate", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
   "date": "1979 1 1 0 0 0", 
+  "diff_m": {
+    "vert_turb": [
+      [
+        "diff_m", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "diff_t": {
+    "vert_turb": [
+      [
+        "diff_t", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "dis_heat": {
+    "river": [
+      [
+        "dis_heat", 
+        "river_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "dis_ice": {
+    "river": [
+      [
+        "dis_ice", 
+        "river_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "dis_liq": {
+    "river": [
+      [
+        "dis_liq", 
+        "river_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "droplets": {
+    "strat": [
+      [
+        "droplets", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "dummy_lat": {
+    "land": [
+      [
+        "dummy_lat", 
+        "land_static", 
+        "all", 
+        ".false.", 
+        "none"
+      ], 
+      [
+        "dummy_lat", 
+        "land_month", 
+        "all", 
+        ".false.", 
+        "none"
+      ], 
+      [
+        "dummy_lat", 
+        "land_month_inst", 
+        "all", 
+        ".false.", 
+        "none"
+      ], 
+      [
+        "dummy_lat", 
+        "land_daily", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "dummy_lon": {
+    "land": [
+      [
+        "dummy_lon", 
+        "land_static", 
+        "all", 
+        ".false.", 
+        "none"
+      ], 
+      [
+        "dummy_lon", 
+        "land_month", 
+        "all", 
+        ".false.", 
+        "none"
+      ], 
+      [
+        "dummy_lon", 
+        "land_month_inst", 
+        "all", 
+        ".false.", 
+        "none"
+      ], 
+      [
+        "dummy_lon", 
+        "land_daily", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "dust1": {
+    "dynamics": [
+      [
+        "dust1", 
+        "atmos_tracer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "dust2": {
+    "dynamics": [
+      [
+        "dust2", 
+        "atmos_tracer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "dust3": {
+    "dynamics": [
+      [
+        "dust3", 
+        "atmos_tracer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "dust4": {
+    "dynamics": [
+      [
+        "dust4", 
+        "atmos_tracer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "dust5": {
+    "dynamics": [
+      [
+        "dust5", 
+        "atmos_tracer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "enth_conv_col": {
+    "moist": [
+      [
+        "enth_conv_col", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "enth_donner_col": {
+    "moist": [
+      [
+        "enth_donner_col", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "enth_ls_col": {
+    "moist": [
+      [
+        "enth_ls_col", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "enth_uw_col": {
+    "moist": [
+      [
+        "enth_uw_col", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "entr_pbl_fq": {
+    "entrain": [
+      [
+        "entr_pbl_fq", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "entr_rad_fq": {
+    "entrain": [
+      [
+        "entr_rad_fq", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "evap": {
+    "flux_land": [
+      [
+        "evap_land", 
+        "land_daily", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "evap_glac": {
+    "land": [
+      [
+        "evap_glac", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "evap_lake": {
+    "land": [
+      [
+        "evap_lake", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "evap_soil": {
+    "land": [
+      [
+        "evap_soil", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
   "experiment": "c96L33_am4p0", 
+  "feq_uwc": {
+    "uw_conv": [
+      [
+        "feq_uwc", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "feq_uwd": {
+    "uw_conv": [
+      [
+        "feq_uwd", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "feq_uws": {
+    "uw_conv": [
+      [
+        "feq_uws", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "fevapg": {
+    "land": [
+      [
+        "fevapg", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "fevapg_soil": {
+    "land": [
+      [
+        "fevapg_soil", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "fevaps": {
+    "land": [
+      [
+        "fevaps", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "fevaps_soil": {
+    "land": [
+      [
+        "fevaps_soil", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "fevapv": {
+    "land": [
+      [
+        "fevapv", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "fevapv_soil": {
+    "land": [
+      [
+        "fevapv_soil", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
   "files": {
     "atmos_4xdaily": [
       "6", 
@@ -174,6 +1443,3245 @@
       "1", 
       "days", 
       "time"
+    ]
+  }, 
+  "flw": {
+    "land": [
+      [
+        "flw", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "fprec_l": {
+    "land": [
+      [
+        "fprec_l", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "frac_glac": {
+    "land": [
+      [
+        "frac_glac", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "frac_lake": {
+    "land": [
+      [
+        "frac_lake", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "frac_soil": {
+    "land": [
+      [
+        "frac_soil", 
+        "land_static", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "frunf": {
+    "land": [
+      [
+        "frunf", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "fsc": {
+    "vegn": [
+      [
+        "fsc", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "fsw": {
+    "land": [
+      [
+        "fsw", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "geolat_t": {
+    "land": [
+      [
+        "geolat_t", 
+        "land_static", 
+        "all", 
+        ".false.", 
+        "none"
+      ], 
+      [
+        "geolat_t", 
+        "land_month", 
+        "all", 
+        ".false.", 
+        "none"
+      ], 
+      [
+        "geolat_t", 
+        "land_daily", 
+        "all", 
+        ".false.", 
+        "none"
+      ], 
+      [
+        "geolat_t", 
+        "land_month_inst", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "geolon_t": {
+    "land": [
+      [
+        "geolon_t", 
+        "land_static", 
+        "all", 
+        ".false.", 
+        "none"
+      ], 
+      [
+        "geolon_t", 
+        "land_month", 
+        "all", 
+        ".false.", 
+        "none"
+      ], 
+      [
+        "geolon_t", 
+        "land_daily", 
+        "all", 
+        ".false.", 
+        "none"
+      ], 
+      [
+        "geolon_t", 
+        "land_month_inst", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "glac_T": {
+    "glacier": [
+      [
+        "glac_T", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "gpp": {
+    "vegn": [
+      [
+        "gpp", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "grid_lat": {
+    "dynamics": [
+      [
+        "grid_lat", 
+        "grid_spec", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "grid_latt": {
+    "dynamics": [
+      [
+        "grid_latt", 
+        "grid_spec", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "grid_lon": {
+    "dynamics": [
+      [
+        "grid_lon", 
+        "grid_spec", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "grid_lont": {
+    "dynamics": [
+      [
+        "grid_lont", 
+        "grid_spec", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "grnd_flux": {
+    "land": [
+      [
+        "grnd_flux", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "gust_uwc": {
+    "uw_conv": [
+      [
+        "gust_uwc", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "h10": {
+    "dynamics": [
+      [
+        "h10", 
+        "atmos_daily", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "heat2d_rad": {
+    "radiation": [
+      [
+        "heat2d_rad", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "heat2d_sw": {
+    "radiation": [
+      [
+        "heat2d_sw", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "height": {
+    "vegn": [
+      [
+        "vegn_height", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "hevap": {
+    "land": [
+      [
+        "hevap", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "high_cld_amt": {
+    "cloudrad": [
+      [
+        "high_cld_amt", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "hprec": {
+    "land": [
+      [
+        "hprec", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "hrunf": {
+    "land": [
+      [
+        "hrunf", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "ice_mask": {
+    "flux": [
+      [
+        "ice_mask", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "ice_wat": {
+    "dynamics": [
+      [
+        "ice_wat", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "k_m_entr": {
+    "entrain": [
+      [
+        "k_m_entr", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "k_m_troen": {
+    "entrain": [
+      [
+        "k_m_troen", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "k_t_entr": {
+    "entrain": [
+      [
+        "k_t_entr", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "k_t_troen": {
+    "entrain": [
+      [
+        "k_t_troen", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "lake_K_z": {
+    "lake": [
+      [
+        "lake_K_z", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "lake_T": {
+    "lake": [
+      [
+        "lake_T", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "lake_depth": {
+    "lake": [
+      [
+        "lake_depth", 
+        "land_static", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "lake_dz": {
+    "lake": [
+      [
+        "lake_dz", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "lake_width": {
+    "lake": [
+      [
+        "lake_width", 
+        "land_static", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "lake_wl": {
+    "lake": [
+      [
+        "lake_wl", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "lake_ws": {
+    "lake": [
+      [
+        "lake_ws", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "land_frac": {
+    "land": [
+      [
+        "land_frac", 
+        "land_static", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "land_mask": {
+    "flux": [
+      [
+        "land_mask", 
+        "atmos_daily", 
+        "all", 
+        ".false.", 
+        "none"
+      ], 
+      [
+        "land_mask", 
+        "atmos_month", 
+        "all", 
+        ".false.", 
+        "none"
+      ], 
+      [
+        "land_mask", 
+        "atmos_month_aer", 
+        "all", 
+        ".false.", 
+        "none"
+      ], 
+      [
+        "land_mask", 
+        "atmos_diurnal", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "large_dust": {
+    "radiation": [
+      [
+        "lg_dust", 
+        "atmos_month_aer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "large_dust_col": {
+    "radiation": [
+      [
+        "lg_dust_col", 
+        "atmos_month_aer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "large_dust_exopdep_col_vis": {
+    "radiation": [
+      [
+        "lg_dst_ex_c_vs", 
+        "atmos_month_aer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "levapg": {
+    "land": [
+      [
+        "levapg", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "levapg_soil": {
+    "land": [
+      [
+        "levapg_soil", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "levaps": {
+    "land": [
+      [
+        "levaps", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "levaps_soil": {
+    "land": [
+      [
+        "levaps_soil", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "levapv": {
+    "land": [
+      [
+        "levapv", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "levapv_soil": {
+    "land": [
+      [
+        "levapv_soil", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "liq_drp": {
+    "dynamics": [
+      [
+        "liq_drp", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "liq_wat": {
+    "dynamics": [
+      [
+        "liq_wat", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "low_cld_amt": {
+    "cloudrad": [
+      [
+        "low_cld_amt", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "lwdn": {
+    "land": [
+      [
+        "lwdn", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "lwdn_sfc": {
+    "radiation": [
+      [
+        "lwdn_sfc", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "lwdn_sfc_clr": {
+    "radiation": [
+      [
+        "lwdn_sfc_clr", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "lwflx": {
+    "flux": [
+      [
+        "lwflx", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "lwup_sfc": {
+    "radiation": [
+      [
+        "lwup_sfc", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "lwup_sfc_clr": {
+    "radiation": [
+      [
+        "lwup_sfc_clr", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "mc_full": {
+    "moist": [
+      [
+        "mc_full", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "melt": {
+    "land": [
+      [
+        "melt", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "meltg_glac": {
+    "land": [
+      [
+        "meltg_glac", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "melts": {
+    "land": [
+      [
+        "melts", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "mid_cld_amt": {
+    "cloudrad": [
+      [
+        "mid_cld_amt", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "n2o_lbc": {
+    "tracers": [
+      [
+        "N2O_lbc", 
+        "atmos_scalar", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "nep": {
+    "vegn": [
+      [
+        "nep", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "netrad_toa": {
+    "radiation": [
+      [
+        "netrad_toa", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "no_riv": {
+    "river": [
+      [
+        "no_riv", 
+        "river_static", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "npp": {
+    "vegn": [
+      [
+        "npp", 
+        "land_daily", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "olr": {
+    "radiation": [
+      [
+        "olr", 
+        "atmos_daily", 
+        "all", 
+        ".true.", 
+        "none"
+      ], 
+      [
+        "olr", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "olr_clr": {
+    "radiation": [
+      [
+        "olr_clr", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "omega": {
+    "dynamics": [
+      [
+        "omega", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "omphil": {
+    "dynamics": [
+      [
+        "omphil", 
+        "atmos_tracer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "omphob": {
+    "dynamics": [
+      [
+        "omphob", 
+        "atmos_tracer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "organic_carbon": {
+    "radiation": [
+      [
+        "org_crb", 
+        "atmos_month_aer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "organic_carbon_col": {
+    "radiation": [
+      [
+        "org_crb_col", 
+        "atmos_month_aer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "organic_carbon_exopdep_col_vis": {
+    "radiation": [
+      [
+        "org_crb_ex_c_vs", 
+        "atmos_month_aer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "past_harv_pool": {
+    "vegn": [
+      [
+        "past_harv_pool", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "past_harv_rate": {
+    "vegn": [
+      [
+        "past_harv_rate", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "pcb_uwc": {
+    "uw_conv": [
+      [
+        "pcb_uwc", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "pcb_uwd": {
+    "uw_conv": [
+      [
+        "pcb_uwd", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "pcb_uws": {
+    "uw_conv": [
+      [
+        "pcb_uws", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "pct_uwc": {
+    "uw_conv": [
+      [
+        "pct_uwc", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "pct_uwd": {
+    "uw_conv": [
+      [
+        "pct_uwd", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "pct_uws": {
+    "uw_conv": [
+      [
+        "pct_uws", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "pk": {
+    "dynamics": [
+      [
+        "pk", 
+        "atmos_daily", 
+        "all", 
+        ".false.", 
+        "none"
+      ], 
+      [
+        "pk", 
+        "atmos_month", 
+        "all", 
+        ".false.", 
+        "none"
+      ], 
+      [
+        "pk", 
+        "atmos_month_aer", 
+        "all", 
+        ".false.", 
+        "none"
+      ], 
+      [
+        "pk", 
+        "atmos_tracer", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "plcl_uwc": {
+    "uw_conv": [
+      [
+        "plcl_uwc", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "plfc_uwc": {
+    "uw_conv": [
+      [
+        "plfc_uwc", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "plnb_uwc": {
+    "uw_conv": [
+      [
+        "plnb_uwc", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "prc_deep_donner": {
+    "moist": [
+      [
+        "prc_deep_donner", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "prc_mca_donner": {
+    "moist": [
+      [
+        "prc_mca_donner", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "prec_conv": {
+    "moist": [
+      [
+        "prec_conv", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ], 
+      [
+        "prec_conv", 
+        "atmos_diurnal", 
+        "all", 
+        "diurnal24", 
+        "none"
+      ]
+    ]
+  }, 
+  "prec_ls": {
+    "moist": [
+      [
+        "prec_ls", 
+        "atmos_8xdaily", 
+        "all", 
+        ".true.", 
+        "none"
+      ], 
+      [
+        "prec_ls", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "prec_uwc": {
+    "uw_conv": [
+      [
+        "prec_uwc", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "prec_uwd": {
+    "uw_conv": [
+      [
+        "prec_uwd", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "prec_uws": {
+    "uw_conv": [
+      [
+        "prec_uws", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "precip": {
+    "land": [
+      [
+        "precip", 
+        "land_daily", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "ps": {
+    "dynamics": [
+      [
+        "ps", 
+        "atmos_daily", 
+        "all", 
+        ".true.", 
+        "none"
+      ], 
+      [
+        "ps", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ], 
+      [
+        "ps", 
+        "atmos_month_aer", 
+        "all", 
+        ".true.", 
+        "none"
+      ], 
+      [
+        "ps", 
+        "atmos_tracer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "q_ref": {
+    "flux": [
+      [
+        "q_ref", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "qca": {
+    "land": [
+      [
+        "qca", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "qdt_conv": {
+    "moist": [
+      [
+        "qdt_conv", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "qdt_dyn": {
+    "atmos": [
+      [
+        "qdt_dyn", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "qdt_ls": {
+    "moist": [
+      [
+        "qdt_ls", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "qdt_pevap_uwc": {
+    "uw_conv": [
+      [
+        "qdt_pevap_uwc", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "qdt_uwd": {
+    "uw_conv": [
+      [
+        "qdt_uwd", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "qdt_uws": {
+    "uw_conv": [
+      [
+        "qdt_uws", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "qdt_vdif": {
+    "vert_diff": [
+      [
+        "qdt_vdif", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "qo3_col": {
+    "radiation": [
+      [
+        "qo3_col", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "radon": {
+    "dynamics": [
+      [
+        "radon", 
+        "atmos_tracer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "radpbl_fq": {
+    "entrain": [
+      [
+        "radpbl_fq", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "reff_modis": {
+    "cloudrad": [
+      [
+        "reff_modis", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "reff_modis2": {
+    "cloudrad": [
+      [
+        "reff_modis2", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "resg": {
+    "vegn": [
+      [
+        "resg", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "resp": {
+    "vegn": [
+      [
+        "resp", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rh": {
+    "moist": [
+      [
+        "rh", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rh_ref": {
+    "flux": [
+      [
+        "rh_ref", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "root_density": {
+    "vegn": [
+      [
+        "vegn_rden", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "root_zeta": {
+    "vegn": [
+      [
+        "vegn_rzeta", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rrvch4": {
+    "radiation": [
+      [
+        "rrvch4", 
+        "atmos_scalar", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rrvco2": {
+    "radiation": [
+      [
+        "rrvco2", 
+        "atmos_scalar", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rrvf11": {
+    "radiation": [
+      [
+        "rrvf11", 
+        "atmos_scalar", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rrvf113": {
+    "radiation": [
+      [
+        "rrvf113", 
+        "atmos_scalar", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rrvf12": {
+    "radiation": [
+      [
+        "rrvf12", 
+        "atmos_scalar", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rrvf22": {
+    "radiation": [
+      [
+        "rrvf22", 
+        "atmos_scalar", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rrvn2o": {
+    "radiation": [
+      [
+        "rrvn2o", 
+        "atmos_scalar", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rsoil": {
+    "vegn": [
+      [
+        "rsoil", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rsoil_fast": {
+    "vegn": [
+      [
+        "rsoil_fast", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "runf": {
+    "land": [
+      [
+        "runf", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "runf_soil": {
+    "land": [
+      [
+        "runf_soil", 
+        "land_daily", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rv_Qavg": {
+    "river": [
+      [
+        "rv_Qavg", 
+        "river_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rv_T": {
+    "river": [
+      [
+        "rv_T", 
+        "river_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rv_basin": {
+    "river": [
+      [
+        "rv_basin", 
+        "river_static", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rv_d_h2o": {
+    "river": [
+      [
+        "rv_d_h2o", 
+        "river_daily", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rv_d_hEt": {
+    "river": [
+      [
+        "rv_d_hEt", 
+        "river_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rv_d_ice": {
+    "river": [
+      [
+        "rv_d_ice", 
+        "river_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rv_depth": {
+    "river": [
+      [
+        "rv_depth", 
+        "river_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rv_dir": {
+    "river": [
+      [
+        "rv_dir", 
+        "river_static", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rv_i_h2o": {
+    "river": [
+      [
+        "rv_i_h2o", 
+        "river_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rv_i_het": {
+    "river": [
+      [
+        "rv_i_het", 
+        "river_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rv_i_ice": {
+    "river": [
+      [
+        "rv_i_ice", 
+        "river_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rv_ice": {
+    "river": [
+      [
+        "rv_ice", 
+        "river_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rv_length": {
+    "river": [
+      [
+        "rv_length", 
+        "river_static", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rv_o_h2o": {
+    "river": [
+      [
+        "rv_o_h2o", 
+        "river_daily", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rv_o_het": {
+    "river": [
+      [
+        "rv_o_het", 
+        "river_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rv_o_ice": {
+    "river": [
+      [
+        "rv_o_ice", 
+        "river_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rv_trav": {
+    "river": [
+      [
+        "rv_trav", 
+        "river_static", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rv_veloc": {
+    "river": [
+      [
+        "rv_veloc", 
+        "river_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "rv_width": {
+    "river": [
+      [
+        "rv_width", 
+        "river_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "sea_salt": {
+    "radiation": [
+      [
+        "salt", 
+        "atmos_month_aer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "sea_salt_col": {
+    "radiation": [
+      [
+        "salt_col", 
+        "atmos_month_aer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "sea_salt_exopdep_col_vis": {
+    "radiation": [
+      [
+        "salt_ex_c_vs", 
+        "atmos_month_aer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "sens": {
+    "land": [
+      [
+        "sens", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "shflx": {
+    "flux": [
+      [
+        "shflx", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ], 
+      [
+        "shflx", 
+        "atmos_diurnal", 
+        "all", 
+        "diurnal24", 
+        "none"
+      ]
+    ]
+  }, 
+  "simpleDMS": {
+    "dynamics": [
+      [
+        "DMS", 
+        "atmos_tracer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "simpleH2O2": {
+    "dynamics": [
+      [
+        "H2O2", 
+        "atmos_tracer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "simpleMSA": {
+    "dynamics": [
+      [
+        "MSA", 
+        "atmos_tracer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "simpleSO2": {
+    "dynamics": [
+      [
+        "SO2", 
+        "atmos_tracer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "simpleSO4": {
+    "dynamics": [
+      [
+        "SO4", 
+        "atmos_tracer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "slp": {
+    "dynamics": [
+      [
+        "slp_dyn", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "small_dust": {
+    "radiation": [
+      [
+        "sm_dust", 
+        "atmos_month_aer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "small_dust_col": {
+    "radiation": [
+      [
+        "sm_dust_col", 
+        "atmos_month_aer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "small_dust_exopdep_col_vis": {
+    "radiation": [
+      [
+        "sm_dst_ex_c_vs", 
+        "atmos_month_aer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "snow": {
+    "land": [
+      [
+        "snow", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "snow_conv": {
+    "moist": [
+      [
+        "snow_conv", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "snow_crit": {
+    "vegn": [
+      [
+        "vegn_sncrit", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "snow_glac": {
+    "land": [
+      [
+        "snow_glac", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "snow_lake": {
+    "land": [
+      [
+        "snow_lake", 
+        "land_daily", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "snow_ls": {
+    "moist": [
+      [
+        "snow_ls", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "snow_soil": {
+    "land": [
+      [
+        "snow_soil", 
+        "land_daily", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "snow_tot": {
+    "moist": [
+      [
+        "snow_tot", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "so4": {
+    "radiation": [
+      [
+        "sulfate", 
+        "atmos_month_aer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "so4_col": {
+    "radiation": [
+      [
+        "sulfate_col", 
+        "atmos_month_aer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "so4_exopdep_col_vis": {
+    "radiation": [
+      [
+        "sulfate_ex_c_vs", 
+        "atmos_month_aer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "soil_Ksat": {
+    "soil": [
+      [
+        "soil_Ksat", 
+        "land_static", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "soil_T": {
+    "soil": [
+      [
+        "soil_T", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "soil_fgw": {
+    "soil": [
+      [
+        "soil_fgw", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "soil_fsat": {
+    "soil": [
+      [
+        "soil_fsat", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "soil_ice": {
+    "soil": [
+      [
+        "soil_ice", 
+        "land_daily", 
+        "all", 
+        ".true.", 
+        "-1 -1 -1 -1 0 0.1"
+      ]
+    ]
+  }, 
+  "soil_liq": {
+    "soil": [
+      [
+        "soil_liq", 
+        "land_daily", 
+        "all", 
+        ".true.", 
+        "-1 -1 -1 -1 0 0.1"
+      ]
+    ]
+  }, 
+  "soil_psi": {
+    "soil": [
+      [
+        "soil_psi", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "soil_psi_n": {
+    "soil": [
+      [
+        "soil_psi_n", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "soil_rbf": {
+    "soil": [
+      [
+        "soil_rbf", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "soil_rie": {
+    "soil": [
+      [
+        "soil_rie", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "soil_rlief": {
+    "soil": [
+      [
+        "soil_rlief", 
+        "land_static", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "soil_rnu": {
+    "soil": [
+      [
+        "soil_rnu", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "soil_rsn": {
+    "soil": [
+      [
+        "soil_rsn", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "soil_sat": {
+    "soil": [
+      [
+        "soil_sat", 
+        "land_static", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "soil_type": {
+    "soil": [
+      [
+        "soil_type", 
+        "land_static", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "soil_uptk": {
+    "soil": [
+      [
+        "soil_uptk", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "soil_uptk_ntrl": {
+    "soil": [
+      [
+        "soil_uptk_ntrl", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "soil_wilt": {
+    "soil": [
+      [
+        "soil_wilt", 
+        "land_static", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "soil_wt_4": {
+    "soil": [
+      [
+        "soil_wt_4", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "soil_wtdep": {
+    "soil": [
+      [
+        "soil_wtdep", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "solar_constant": {
+    "radiation": [
+      [
+        "solar_constant", 
+        "atmos_scalar", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "species": {
+    "vegn": [
+      [
+        "species", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "sphum": {
+    "dynamics": [
+      [
+        "sphum", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ], 
+      [
+        "sphum", 
+        "atmos_month_aer", 
+        "all", 
+        ".true.", 
+        "none"
+      ], 
+      [
+        "sphum", 
+        "atmos_tracer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "ssalt1": {
+    "dynamics": [
+      [
+        "ssalt1", 
+        "atmos_tracer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "ssalt2": {
+    "dynamics": [
+      [
+        "ssalt2", 
+        "atmos_tracer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "ssalt3": {
+    "dynamics": [
+      [
+        "ssalt3", 
+        "atmos_tracer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "ssalt4": {
+    "dynamics": [
+      [
+        "ssalt4", 
+        "atmos_tracer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "ssalt5": {
+    "dynamics": [
+      [
+        "ssalt5", 
+        "atmos_tracer", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "ssc": {
+    "vegn": [
+      [
+        "ssc", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "swdn_dif": {
+    "land": [
+      [
+        "swdn_dif", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "swdn_dir": {
+    "land": [
+      [
+        "swdn_dir", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "swdn_sfc": {
+    "radiation": [
+      [
+        "swdn_sfc", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "swdn_sfc_clr": {
+    "radiation": [
+      [
+        "swdn_sfc_clr", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "swdn_toa": {
+    "radiation": [
+      [
+        "swdn_toa", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "swdn_toa_clr": {
+    "radiation": [
+      [
+        "swdn_toa_clr", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "swup_dif": {
+    "land": [
+      [
+        "swup_dif", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "swup_dir": {
+    "land": [
+      [
+        "swup_dir", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "swup_sfc": {
+    "radiation": [
+      [
+        "swup_sfc", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "swup_sfc_clr": {
+    "radiation": [
+      [
+        "swup_sfc_clr", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "swup_toa": {
+    "radiation": [
+      [
+        "swup_toa", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "swup_toa_clr": {
+    "radiation": [
+      [
+        "swup_toa_clr", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "t10": {
+    "dynamics": [
+      [
+        "t10", 
+        "atmos_daily", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "t_ref": {
+    "flux_land": [
+      [
+        "t_ref", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ], 
+      [
+        "t_ref_max", 
+        "land_daily", 
+        "all", 
+        "max", 
+        "none"
+      ], 
+      [
+        "t_ref_min", 
+        "land_daily", 
+        "all", 
+        "min", 
+        "none"
+      ]
+    ]
+  }, 
+  "t_surf": {
+    "flux": [
+      [
+        "t_surf", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "tau_x": {
+    "flux": [
+      [
+        "tau_x", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "tau_y": {
+    "flux": [
+      [
+        "tau_y", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "tdt_conv": {
+    "moist": [
+      [
+        "tdt_conv", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "tdt_dyn": {
+    "atmos": [
+      [
+        "tdt_dyn", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "tdt_ls": {
+    "moist": [
+      [
+        "tdt_ls", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "tdt_lw": {
+    "radiation": [
+      [
+        "tdt_lw", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "tdt_pevap_uwc": {
+    "uw_conv": [
+      [
+        "tdt_pevap_uwc", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "tdt_sw": {
+    "radiation": [
+      [
+        "tdt_sw", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "tdt_vdif": {
+    "vert_diff": [
+      [
+        "tdt_vdif", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "temp": {
+    "vegn": [
+      [
+        "vegn_T", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ], 
+      [
+        "vegn_temp_max", 
+        "land_daily", 
+        "all", 
+        "max", 
+        "none"
+      ], 
+      [
+        "vegn_temp_min", 
+        "land_daily", 
+        "all", 
+        "min", 
+        "none"
+      ]
+    ]
+  }, 
+  "theta": {
+    "vegn": [
+      [
+        "theta", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "tke": {
+    "dynamics": [
+      [
+        "tke", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "tke_uwc": {
+    "uw_conv": [
+      [
+        "tke_uwc", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "tm": {
+    "dynamics": [
+      [
+        "tm", 
+        "atmos_4xdaily", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "tot_cld_amt": {
+    "cloudrad": [
+      [
+        "tot_cld_amt", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "tot_ice_amt": {
+    "moist": [
+      [
+        "tot_ice_amt", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "tot_liq_amt": {
+    "moist": [
+      [
+        "tot_liq_amt", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "transp": {
+    "land": [
+      [
+        "transp", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "tsoil_av": {
+    "vegn": [
+      [
+        "tsoil_av", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "u10": {
+    "dynamics": [
+      [
+        "u10", 
+        "atmos_daily", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "u200": {
+    "dynamics": [
+      [
+        "u200", 
+        "atmos_daily", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "u850": {
+    "dynamics": [
+      [
+        "u850", 
+        "atmos_daily", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "u_ref": {
+    "flux": [
+      [
+        "u_ref", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "ucomp": {
+    "dynamics": [
+      [
+        "ucomp", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "udt_gwd": {
+    "damping": [
+      [
+        "udt_gwd", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "udt_topo": {
+    "damping": [
+      [
+        "udt_topo", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "udt_vdif": {
+    "vert_diff": [
+      [
+        "udt_vdif", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "uw_precip": {
+    "moist": [
+      [
+        "uw_precip", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "v200": {
+    "dynamics": [
+      [
+        "v200", 
+        "atmos_daily", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "v850": {
+    "dynamics": [
+      [
+        "v850", 
+        "atmos_daily", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "v_ref": {
+    "flux": [
+      [
+        "v_ref", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "vcomp": {
+    "dynamics": [
+      [
+        "vcomp", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "vdt_gwd": {
+    "damping": [
+      [
+        "vdt_gwd", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "vdt_topo": {
+    "damping": [
+      [
+        "vdt_topo", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "vdt_vdif": {
+    "vert_diff": [
+      [
+        "vdt_vdif", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "vort850": {
+    "dynamics": [
+      [
+        "vort850", 
+        "atmos_4xdaily", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
+    ]
+  }, 
+  "vrad": {
+    "entrain": [
+      [
+        "vrad", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "vshear": {
+    "entrain": [
+      [
+        "vshear", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "vsurf": {
+    "entrain": [
+      [
+        "vsurf", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "wat_conv_col": {
+    "moist": [
+      [
+        "wat_conv_col", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "wat_donner_col": {
+    "moist": [
+      [
+        "wat_donner_col", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "wat_ls_col": {
+    "moist": [
+      [
+        "wat_ls_col", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "wat_uw_col": {
+    "moist": [
+      [
+        "wat_uw_col", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "water_lake": {
+    "land": [
+      [
+        "water_lake", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "water_soil": {
+    "land": [
+      [
+        "water_soil", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "wentr_pbl": {
+    "entrain": [
+      [
+        "wentr_pbl", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "wentr_rad": {
+    "entrain": [
+      [
+        "wentr_rad", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "wind_ref": {
+    "flux": [
+      [
+        "wind_ref", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "wood_fast_harv_pool": {
+    "vegn": [
+      [
+        "wood_fast_harv_pool", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "wood_fast_harv_rate": {
+    "vegn": [
+      [
+        "wood_fast_harv_rate", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "wood_med_harv_pool": {
+    "vegn": [
+      [
+        "wood_med_harv_pool", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "wood_med_harv_rate": {
+    "vegn": [
+      [
+        "wood_med_harv_rate", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "wood_slow_harv_pool": {
+    "vegn": [
+      [
+        "wood_slow_harv_pool", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "wood_slow_harv_rate": {
+    "vegn": [
+      [
+        "wood_slow_harv_rate", 
+        "land_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "z_Ri_025": {
+    "vert_turb": [
+      [
+        "z_Ri_025", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ], 
+      [
+        "z_Ri_025", 
+        "atmos_diurnal", 
+        "all", 
+        "diurnal24", 
+        "none"
+      ]
+    ]
+  }, 
+  "z_full": {
+    "vert_turb": [
+      [
+        "z_full", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "z_pbl": {
+    "vert_turb": [
+      [
+        "z_pbl", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "zsml": {
+    "entrain": [
+      [
+        "zsml", 
+        "atmos_month", 
+        "all", 
+        ".true.", 
+        "none"
+      ]
+    ]
+  }, 
+  "zsurf": {
+    "dynamics": [
+      [
+        "zsurf", 
+        "atmos_daily", 
+        "all", 
+        ".false.", 
+        "none"
+      ], 
+      [
+        "zsurf", 
+        "atmos_month", 
+        "all", 
+        ".false.", 
+        "none"
+      ], 
+      [
+        "zsurf", 
+        "atmos_month_aer", 
+        "all", 
+        ".false.", 
+        "none"
+      ], 
+      [
+        "zsurf", 
+        "atmos_diurnal", 
+        "all", 
+        ".false.", 
+        "none"
+      ]
     ]
   }
 }

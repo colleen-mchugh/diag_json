@@ -10,16 +10,16 @@ import re
 import argparse
 
 parser=argparse.ArgumentParser(description='Create diag_json file')
-parser.add_argument('--variables', nargs='+', default=[], help='List of variables to extract info for')
-#parser.add_argument('--input', help='Input json diag table')
-#parser.add_argument('--output', help='Name of final diag table')
+parser.add_argument('--variables', nargs='+', default=[], help='List of variables to create diag table for')
+parser.add_argument('--input', help='Name of input diag table')
+parser.add_argument('--output', help='Name of output diag table')
 args=parser.parse_args()
-#diag_in=args.input
-#diag_out=args.output
+diag_in=args.input
+diag_out=args.output
 input_vars=args.variables
 ## Open the input json diag_table
 ####################################################################
-f=open('diag_json')
+f=open(diag_in)
 data=json.load(f)
 f.close()
 #####################################################################
@@ -31,9 +31,14 @@ if input_vars:
         for item in input_vars:
             if re.match(r"\b" + item + r"\b", k):
                 variables[k]=v
-    if len(variables)==0:
-        print("No variables from user-specified list {} found".format(input_vars))
+                #find associated files
+                for key in v.keys():
+                    f=v[key][0][1]
+                    variables[f]=data['files'][f]
+        #add date and experiment info
+        if re.match(r"\bexperiment|date\b",k):
+            variables[k]=v  
 #####################################################################
 ## Write the json to the output file
-with open('test.json','w') as json_out:
-    json.dump(variables,json_out,sort_keys=True, indent=2)
+with open(diag_out,'w') as json_out:
+    json.dump(variables,json_out, sort_keys=True, indent=2)
